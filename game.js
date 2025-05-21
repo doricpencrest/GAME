@@ -15,26 +15,26 @@ class PongGame extends Phaser.Scene {
         // Load background loop
         this.load.audio('backgroundLoop', 'https://play.rosebud.ai/assets/PONG_LOOP.wav?zkkh');
         // Load PONG random 1 sounds (for 0-4s and 10-15s)
-        this.load.audio('pong1_1', 'https://play.rosebud.ai/assets/PONG random 1-001.wav?V9Gw');
-        this.load.audio('pong1_2', 'https://play.rosebud.ai/assets/PONG random 1-002.wav?eCwQ');
-        this.load.audio('pong1_3', 'https://play.rosebud.ai/assets/PONG random 1-003.wav?Voos');
-        this.load.audio('pong1_4', 'https://play.rosebud.ai/assets/PONG random 1-004.wav?Vscs');
-        this.load.audio('pong1_5', 'https://play.rosebud.ai/assets/PONG random 1-005.wav?sKj4');
-        this.load.audio('pong1_6', 'https://play.rosebud.ai/assets/PONG random 1-006.wav?qcWc');
+        this.load.audio('pong1_1', 'https://play.assets/sounds/PONG random 1-001.wav?V9Gw');
+        this.load.audio('pong1_2', 'https://play.assets/sounds/PONG random 1-002.wav?eCwQ');
+        this.load.audio('pong1_3', 'https://play.assets/sounds/PONG random 1-003.wav?Voos');
+        this.load.audio('pong1_4', 'https://play.assets/sounds/PONG random 1-004.wav?Vscs');
+        this.load.audio('pong1_5', 'https://play.assets/sounds/PONG random 1-005.wav?sKj4');
+        this.load.audio('pong1_6', 'https://play.assets/sounds/PONG random 1-006.wav?qcWc');
         // Load PONG random 2 sounds (for other times)
-        this.load.audio('pong2_1', 'https://play.rosebud.ai/assets/PONG random 2-001.wav?X03q');
-        this.load.audio('pong2_2', 'https://play.rosebud.ai/assets/PONG random 2-002.wav?L90v');
-        this.load.audio('pong2_3', 'https://play.rosebud.ai/assets/PONG random 2-003.wav?f2yu');
-        this.load.audio('pong2_4', 'https://play.rosebud.ai/assets/PONG random 2-004.wav?wHk8');
-        this.load.audio('pong2_5', 'https://play.rosebud.ai/assets/PONG random 2-005.wav?elac');
-        this.load.audio('pong2_6', 'https://play.rosebud.ai/assets/PONG random 2-006.wav?G5mo');
-        this.load.audio('pong2_7', 'https://play.rosebud.ai/assets/PONG random 2-007.wav?6e4l');
+        this.load.audio('pong2_1', 'https://play.assets/sounds/PONG random 2-001.wav?X03q');
+        this.load.audio('pong2_2', 'https://play.assets/sounds/PONG random 2-002.wav?L90v');
+        this.load.audio('pong2_3', 'https://play.assets/sounds/PONG random 2-003.wav?f2yu');
+        this.load.audio('pong2_4', 'https://play.assets/sounds/PONG random 2-004.wav?wHk8');
+        this.load.audio('pong2_5', 'https://play.assets/sounds/PONG random 2-005.wav?elac');
+        this.load.audio('pong2_6', 'https://play.assets/sounds/PONG random 2-006.wav?G5mo');
+        this.load.audio('pong2_7', 'https://play.assets/sounds/PONG random 2-007.wav?6e4l');
         // Load 'me' images
-        this.load.image('me1', 'https://play.rosebud.ai/assets/me1.png?Gj2B');
-        this.load.image('me2', 'https://play.rosebud.ai/assets/me2.png?6pJu');
-        this.load.image('me3', 'https://play.rosebud.ai/assets/me3.png?enlP');
-        this.load.image('me4', 'https://play.rosebud.ai/assets/me4.png?JfDJ');
-        this.load.image('me5', 'https://play.rosebud.ai/assets/me5.png?PVJd');
+        this.load.image('me1', 'https://play.assets/me1.png?Gj2B');
+        this.load.image('me2', 'https://play.assets/me2.png?6pJu');
+        this.load.image('me3', 'https://play.assets/me3.png?enlP');
+        this.load.image('me4', 'https://play.assets/me4.png?JfDJ');
+        this.load.image('me5', 'https://play.assets/me5.png?PVJd');
     }
 
     create() {
