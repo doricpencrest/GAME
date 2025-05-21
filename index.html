@@ -1,28 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pong Game</title>
-    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #F5E6D3;
-        }
-        #renderDiv {
-            width: 800px;
-            height: 600px;
-        }
-    </style>
-</head>
-<body>
-    <div id="renderDiv"></div>
-    <script src="game.js"></script>
-</body>
-</html>
+<script>
+  const config = {
+    type: Phaser.AUTO,
+    width: 1280,
+    height: 720,
+    physics: {
+      default: 'arcade',
+      arcade: {
+        debug: false,
+      }
+    },
+    scene: PongGame
+  };
+
+  const game = new Phaser.Game(config);
+</script>
