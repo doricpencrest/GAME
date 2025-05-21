@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pong Game</title>
-  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #F5E6D3;
+        }
+        #renderDiv {
+            width: 800px;
+            height: 600px;
+        }
+    </style>
 </head>
 <body>
-  <!-- Add canvas or any game UI here if needed -->
-
-  <!-- Load your custom game logic -->
-  <script src="game.js"></script>
+    <div id="renderDiv"></div>
+    <script src="game.js"></script>
 </body>
 </html>
