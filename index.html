@@ -1,16 +1,33 @@
-<script>
-  const config = {
-    type: Phaser.AUTO,
-    width: 1280,
-    height: 720,
-    physics: {
-      default: 'arcade',
-      arcade: {
-        debug: false,
-      }
-    },
-    scene: PongGame
-  };
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Phaser Game</title>
+</head>
+<body>
+  <h1>My Phaser Game</h1>
+  <div id="game-container"></div>
 
-  const game = new Phaser.Game(config);
-</script>
+  <!-- Load your game.js file -->
+  <script src="game.js"></script>
+
+  <!-- Inline Phaser game configuration -->
+  <script>
+    const config = {
+      type: Phaser.AUTO,
+      width: 1280,
+      height: 720,
+      physics: {
+        default: 'arcade',
+        arcade: {
+          debug: false,
+        }
+      },
+      scene: PongGame
+    };
+
+    const game = new Phaser.Game(config);
+  </script>
+</body>
+</html>
