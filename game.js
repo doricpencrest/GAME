@@ -107,7 +107,7 @@ class PongGame extends Phaser.Scene {
         // Create minimal style start text
         this.startText = this.add.text(640, 360 + (157 * 0.56 / 2) + (30 * 1.2), 'press space', {
             fontFamily: 'Arial',
-            fontSize: '32px',
+            fontSize: '64px',
             fontWeight: '300',
             color: '#FF6B8D',
             padding: {
