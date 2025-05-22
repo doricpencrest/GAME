@@ -207,7 +207,7 @@ class PongGame extends Phaser.Scene {
 
         const baseSpeedX = (300 * 2) * 0.8 * 0.8; // Effective reduction of 36% from doubled speed
         const baseSpeedY = (Phaser.Math.Between(150, 300) * 2) * 0.8 * 0.8; // Effective reduction of 36%
-        const velocityX = baseSpeedX; // Always move towards the AI paddle (right)
+        const velocityX = -baseSpeedX; // Always move towards the player paddle (left)
         const velocityY = (Math.random() < 0.5 ? -1 : 1) * baseSpeedY; // Randomly up or down
         this.ball.body.setVelocity(velocityX, velocityY);
     }
@@ -229,7 +229,7 @@ class PongGame extends Phaser.Scene {
                 if (this.gameStarted) {
                     const baseSpeedX = (300 * 2) * 0.8 * 0.8; // Effective reduction of 36%
                     const baseSpeedY = (Phaser.Math.Between(150, 300) * 2) * 0.8 * 0.8; // Effective reduction of 36%
-                    const velocityX = baseSpeedX; // Always move towards the AI paddle (right)
+                    const velocityX = -baseSpeedX; // Always move towards the player paddle (left)
                     const velocityY = (Math.random() < 0.5 ? -1 : 1) * baseSpeedY; // Randomly up or down
                     this.ball.body.setVelocity(velocityX, velocityY);
                 }
