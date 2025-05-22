@@ -152,7 +152,7 @@ class PongGame extends Phaser.Scene {
             "I call this 'Elevator Pong'",
             "thanks for playing",
             "you're doing great!",
-            "as well as composing, I can implement music",
+            "as well as composing, I can implement music into games",
             "using all the usual suspects",
             "Fmod, Wwise, Unreal etc",
             "I love creating bespoke soundtracks",
