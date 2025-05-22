@@ -149,13 +149,13 @@ class PongGame extends Phaser.Scene {
         // Define phrases for Naomi's text
         this.naomiPhrases = [
             "Hi!",
-            "I'm Naomi",
-            "I make music for games",
-            "(you're doing great btw!)",
-            "I can implement music",
+            "I call this 'Elevator Pong",
+            "thanks for playing!",
+            "(you're doing great btw)",
+            "as welll as composing, I can implement music",
             "using all the usual suspects",
             "Fmod, Wwise, Unreal etc",
-            "and I love creating bespoke soundtracks",
+            "I love creating bespoke soundtracks",
             "that are interactive and playful",
             "have a project you'd like great music for?",
             "let's chat! emails are welcome",
