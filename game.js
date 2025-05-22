@@ -39,14 +39,14 @@ class PongGame extends Phaser.Scene {
 
     create() {
         // Create quit button
-        const quitButtonRadius = 30;
+        const quitButtonRadius = 60; // Doubled radius
         const quitButtonX = 1200;
         const quitButtonY = 48;
         this.quitButtonCircle = this.add.circle(quitButtonX, quitButtonY, quitButtonRadius, 0xFF6B8D); // Pink color
         this.quitButtonCircle.setStrokeStyle(2, 0xFF6B8D); // Pink stroke
         this.quitButton = this.add.text(quitButtonX, quitButtonY, 'Quit', {
             fontFamily: 'Arial',
-            fontSize: '20px', // Adjusted size to fit circle
+            fontSize: '40px', // Doubled font size
             fontWeight: 'bold',
             color: '#000000', // Black color
             align: 'center'
@@ -62,7 +62,10 @@ class PongGame extends Phaser.Scene {
         this.quitButton.on('pointerdown', () => this.quitGame());
         // Set warm beige background
         this.cameras.main.setBackgroundColor('#F5E6D3');
-
+        // Add a thin black outline for the play area
+        const playAreaOutline = this.add.graphics();
+        playAreaOutline.lineStyle(4, 0x000000, 1); // 4px thick, black, full alpha
+        playAreaOutline.strokeRect(0, 0, this.cameras.main.width, this.cameras.main.height);
         // Create custom paddles
         this.paddleWidth = 24; // 15 * 1.6
         this.paddleHeight = 192; // 160 * 1.2
