@@ -157,7 +157,7 @@ class PongGame extends Phaser.Scene {
             "and I wanted it done in less than a day, so"
             "if you have views on AI that you'd like to share"
             "or would like me to write you some much better music than this"
-            "let's chat, emails are welcone"
+            "let's chat, emails are welcome"
             "thenaomihart@gmail.com"
         ];
         // Create Naomi's text object
