@@ -150,15 +150,14 @@ class PongGame extends Phaser.Scene {
         this.naomiPhrases = [
             "Hi!",
             "I call this 'Elevator Pong'",
-            "thanks for playing",
-            "you're doing great!",
-            "as well as composing, I can implement music into games",
-            "using all the usual suspects",
-            "Fmod, Wwise, Unreal etc",
-            "I love creating bespoke soundtracks",
-            "that are interactive and playful",
-            "have a project you'd like great music for?",
-            "let's chat! emails are welcome",
+            "I made it with help from AI"
+            "yes, yes, I know..."
+            "but I wanted to showcase my 'muzac' writing skills"
+            "and to endlessly watch my head bob back and forth"
+            "and I wanted it done in less than a day, so"
+            "if you have views on AI that you'd like to share"
+            "or would like me to write you some much better music than this"
+            "let's chat, emails are welcone"
             "thenaomihart@gmail.com"
         ];
         // Create Naomi's text object
