@@ -162,9 +162,10 @@ class PongGame extends Phaser.Scene {
             "specialising in composition",
             "so I can definitely do better than this",
             "...you're meant to say 'I love this, it's cool!',
-            "well anyway, we're coming to the end of elevator pong",
-            "one of us is going to have to get out",
-            "but if you did want to chat more, I'd love to hear your thoughts on muzak, life... game projects",
+            "it's alright, it does go on a bit, I know...',
+            "well anyway, we're coming to the end now",
+            "one of us is going to have to get out (of the elevator)",
+            "but if you did want to chat more, I'd love to hear your thoughts",
             "okay then",
             "see you later!",
             "thenaomihart@gmail.com"
