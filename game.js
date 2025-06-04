@@ -155,8 +155,9 @@ class PongGame extends Phaser.Scene {
             "but I wanted to showcase my 'muzac' writing skills",
             "while watching my head bob back and forth",
             "and I wanted it done in less than a day, so",
-            "if you have views on AI that you'd like to share",
-            "or would like me to write you some much way better music than this",
+            "if you'd like to discuss the pros and cons of AI",
+            "or would like me to write some great music (or muzac) for your game",
+        
             "let's chat, emails are welcome",
             "thenaomihart@gmail.com"
         ];
