@@ -152,11 +152,11 @@ class PongGame extends Phaser.Scene {
             "I call this 'Elevator Pong'",
             "I made it with help from AI",
             "yes, yes, I know...",
-            "but I wanted to showcase my 'muzac' writing skills",
+            "but I wanted to showcase my 'muzak' writing skills",
             "while watching my head bob back and forth",
             "and I wanted it done in less than a day, so",
             "if you'd like to discuss the pros and cons of AI",
-            "or would like me to write some great music (or average muzac) for your game",
+            "or would like me to write some great music (or muzak) for your game",
             "let's chat! emails are welcome",
             "thenaomihart@gmail.com"
         ];
