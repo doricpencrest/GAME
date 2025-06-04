@@ -148,25 +148,26 @@ class PongGame extends Phaser.Scene {
         this.addSoftGlowEffect(this.ball, 0xFF4D6B); // 0xFF4D6B will not be used for tint here, just for consistency
         // Define phrases for Naomi's text
         this.naomiPhrases = [
-            "Oh hi there!",
-            "you found me",
+            "oh, hi there",
+            "you found me!",
             "so I guess you like muzak?",
             "no?",
             "oh yeah, me neither...",
             "um, well I did try to make this a bit more interesting",
             "with the little musical stingers when you hit my head",
             "I thought that was a nice touch",
-            "but yeah, if you've got bigger ideas for your project",
+            "but yeah, if you've got other ideas for your project",
             "something a bit more refined",
-            "I mean, I've got a first class music degree",
-            "specialising in composition",
-            "so I can definitely do better than this",
+            "we could definitely bounce some ideas",
+            "I mean, I have got a first class music degree",
+            "so I can definitely do better than this rubbish",
             "...you're meant to say 'I love this, it's cool!",
-            "it's alright, it does go on a bit, I know...",
+            "it's alright. It does go on a bit",
             "well anyway, we're coming to the end now",
-            "one of us is going to have to get out (of the elevator)",
+            "one of us is going to have to get out (of the elevator",
             "but if you did want to chat more, I'd love to hear your thoughts",
-            "I accept emails",
+            "I'll accept emails",
+            "seeing as its you"
             "thenaomihart@gmail.com"
         ];
         // Create Naomi's text object
