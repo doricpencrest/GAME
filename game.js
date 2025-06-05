@@ -148,7 +148,7 @@ class PongGame extends Phaser.Scene {
         this.addSoftGlowEffect(this.ball, 0xFF4D6B); // 0xFF4D6B will not be used for tint here, just for consistency
         // Define phrases for Naomi's text
         this.naomiPhrases = [
-            "oh hi there",
+            "oh, hi there",
             
             "you found me!",
             "so I guess you like muzak?",
