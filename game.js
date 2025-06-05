@@ -148,17 +148,7 @@ class PongGame extends Phaser.Scene {
         this.addSoftGlowEffect(this.ball, 0xFF4D6B); // 0xFF4D6B will not be used for tint here, just for consistency
         // Define phrases for Naomi's text
         this.naomiPhrases = [
-            "hi!",
-            "I call this 'Elevator Pong'",
-            "it's pretty undemanding",
-            "and maybe you've had quite a demanding day",
-            "(you're looking pretty frazzled actually, no offence)",
-            "maybe ask your computer (not mobile) to find me?",
-            "we could have a quick game",
-            "continue our chat?",
-            "up to you really, but I do like company",
-            "gets a bit lonely in this elevator",
-            "naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com",
+           
             "oh, hi there",
             "you found me!",
             "so I guess you like muzak?",
