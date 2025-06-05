@@ -159,7 +159,6 @@ class PongGame extends Phaser.Scene {
             "up to you really, but I do like company",
             "gets a bit lonely in this elevator",
             "naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com naomicomposes.com",
-        
             "oh, hi there",
             "you found me!",
             "so I guess you like muzak?",
@@ -438,6 +437,7 @@ window.phaserGame = new Phaser.Game(config);
             
             
            
+            
            
                 
             
