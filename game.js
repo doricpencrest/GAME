@@ -149,7 +149,6 @@ class PongGame extends Phaser.Scene {
         // Define phrases for Naomi's text
         this.naomiPhrases = [
             "oh, hi there",
-            
             "you found me!",
             "so I guess you like muzak?",
             "no?",
@@ -423,6 +422,8 @@ const config = {
 };
 
 window.phaserGame = new Phaser.Game(config);
+            
+            
             
            
            
