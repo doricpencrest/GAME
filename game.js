@@ -149,7 +149,7 @@ class PongGame extends Phaser.Scene {
         // Define phrases for Naomi's text
         this.naomiPhrases = [
             "hi!",
-            "I call this 'Elevator Pong",
+            "I call this 'Elevator Pong'",
             "it's pretty undemanding",
             "and maybe you've had quite a demanding day",
              "(you're looking pretty frazzled actually, no offence)",
