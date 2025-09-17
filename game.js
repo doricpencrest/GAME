@@ -165,7 +165,7 @@ class PongGame extends Phaser.Scene {
             "...you're meant to say 'I love this, it's cool!",
             "it's alright. It does go on a bit",
             "well anyway, we're coming to the end now",
-            "one of us is going to have to get out (of the elevator)",
+           
             "but if you did want to chat more, I'd love to hear your thoughts",
             "I'll accept an email",
             "seeing as its you",
